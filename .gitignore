@@ -1,0 +1,49 @@
+# ====================================================================
+# SECURITY & SENSITIVE KEYS (CRITICAL)
+# ====================================================================
+.env
+users.db
+
+# ====================================================================
+# APP DATA, RUNTIME GENERATED FILES, & USER UPLOADS
+# ====================================================================
+# Local Vector Database
+database/
+
+# Generated Chat History Files and Local UI Settings
+chats/chat_sessions.json
+chats/settings.json
+
+# Processed text files cached from PDFs
+extracted_text/
+
+# System Analytics and Logging CSV Metrics
+logs/
+
+# Raw User PDF Uploads & Session Specific Folders
+uploads/
+workspace_data/
+
+# Block stray documents outside tracking directories
+*.pdf
+*.txt
+*.csv
+
+# ====================================================================
+# VIRTUAL ENVIRONMENTS & COMPILER DEPENDENCIES
+# ====================================================================
+# Python Virtual Environment
+venv/
+.venv/
+
+# Python caching mechanisms
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ====================================================================
+# OPERATING SYSTEM FILES
+# ====================================================================
+.DS_Store
+Thumbs.db
