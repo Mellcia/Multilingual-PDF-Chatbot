@@ -11,3 +11,4 @@ pytesseract
 python-dotenv
 reportlab
 sentence_transformers
+torchvision
